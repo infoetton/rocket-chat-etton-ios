@@ -425,7 +425,8 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="XOi-zP-GmR">
-                        <barButtonItem key="rightBarButtonItem" image="more" id="MV0-Z3-Zr6">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" image="more" id="MV0-Z3-Zr6">
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="gD1-Tz-RKb" kind="presentation" id="cnb-v1-dPj"/>
                             </connections>
@@ -689,7 +690,8 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="T6U-YO-tD9">
-                        <barButtonItem key="rightBarButtonItem" image="more" id="8fn-5Q-qau">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" image="more" id="8fn-5Q-qau">
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="gD1-Tz-RKb" kind="presentation" id="cXi-ex-hQo"/>
                             </connections>
@@ -727,7 +729,8 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Title" id="dnA-fX-QAL">
-                        <barButtonItem key="rightBarButtonItem" image="more" id="omz-YD-ESe">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" image="more" id="omz-YD-ESe">
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="gD1-Tz-RKb" kind="presentation" id="ANZ-nn-OTA"/>
                             </connections>
@@ -1035,7 +1038,8 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="cG0-RM-akN">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="more" id="EjR-dt-xS4">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="Item" image="more" id="EjR-dt-xS4">
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="gD1-Tz-RKb" kind="presentation" id="jf7-a5-Wdf"/>
                             </connections>
@@ -1361,11 +1365,11 @@ to mention you in messages</string>
         <image name="usernameBlack" width="20" height="20"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cXi-ex-hQo"/>
+        <segue reference="ANZ-nn-OTA"/>
         <segue reference="jjd-tI-Nfg"/>
-        <segue reference="B9E-PP-gIC"/>
-        <segue reference="9kY-lU-ad7"/>
+        <segue reference="pMy-PV-X3C"/>
+        <segue reference="iQF-0t-Wye"/>
         <segue reference="yUJ-js-l73"/>
-        <segue reference="kz9-vv-nLs"/>
+        <segue reference="dnh-fI-fQN"/>
     </inferredMetricsTieBreakers>
 </document>
