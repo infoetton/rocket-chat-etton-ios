@@ -19,10 +19,7 @@ final class PreferencesViewController: BaseTableViewController {
     private let kSectionProfile = 0
     private let kSectionSettings = 1
     private let kSectionAdministration = 2
-    private let kSectionInformation = 3
-    private let kSectionTracking = 4
-    private let kSectionLogout = 5
-    private let kSectionFlex = 6
+    private let kSectionLogout = 3
 
     private let viewModel = PreferencesViewModel()
 
@@ -275,28 +272,13 @@ final class PreferencesViewController: BaseTableViewController {
             switch indexPath.row {
             case 0:
                 cellLanguageDidPressed()
-            case 4:
-                cellReviewDidPressed()
-            case 5:
-                shareAppCell = tableView.cellForRow(at: indexPath)
-                cellShareDidPressed()
-            case 6:
-                cellAppIconDidPressed()
             default:
                 break
-            }
-        } else if indexPath.section == kSectionInformation {
-            if indexPath.row == 0 {
-                cellTermsOfServiceDidPressed()
             }
         } else if indexPath.section == kSectionAdministration {
             openAdminPanel()
         } else if indexPath.section == kSectionLogout {
             cellLogoutDidPressed()
-        } else if indexPath.section == kSectionFlex, indexPath.row == 0 {
-            #if BETA || DEBUG
-            FLEXManager.shared().showExplorer()
-            #endif
         }
 
         tableView.deselectRow(at: indexPath, animated: true)
@@ -308,14 +290,6 @@ final class PreferencesViewController: BaseTableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return viewModel.numberOfRowsInSection(section)
-    }
-
-    override func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
-        if section == kSectionTracking {
-            return viewModel.trackingFooterText
-        }
-
-        return nil
     }
 
     override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {

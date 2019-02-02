@@ -133,17 +133,14 @@ final class PreferencesViewModel {
     internal let canOpenFLEX = false
     #endif
 
-    internal let numberOfSections = 7
+    internal let numberOfSections = 4
 
     internal func numberOfRowsInSection(_ section: Int) -> Int {
         switch section {
         case 0: return 1
         case 1: return 2
         case 2: return canViewAdministrationPanel ? 1 : 0
-        case 3: return 3
-        case 4: return 1
-        case 5: return 1
-        case 6: return canOpenFLEX ? 1 : 0
+        case 3: return 1
         default: return 0
         }
     }
