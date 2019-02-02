@@ -138,7 +138,7 @@ final class PreferencesViewModel {
     internal func numberOfRowsInSection(_ section: Int) -> Int {
         switch section {
         case 0: return 1
-        case 1: return canChangeAppIcon ? 7 : 6
+        case 1: return 2
         case 2: return canViewAdministrationPanel ? 1 : 0
         case 3: return 3
         case 4: return 1

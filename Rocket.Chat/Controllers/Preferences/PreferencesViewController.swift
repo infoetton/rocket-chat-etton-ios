@@ -274,8 +274,6 @@ final class PreferencesViewController: BaseTableViewController {
         if indexPath.section == kSectionSettings {
             switch indexPath.row {
             case 0:
-                cellContactDidPressed()
-            case 1:
                 cellLanguageDidPressed()
             case 4:
                 cellReviewDidPressed()
