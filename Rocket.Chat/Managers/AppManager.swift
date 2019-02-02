@@ -93,7 +93,11 @@ struct AppManager {
     */
     static var languages: [String] {
         return Bundle.main.localizations.filter({ code -> Bool in
-            return code != "Base"
+            if code == "ru" || code == "en" {
+                return true
+            }
+            
+            return false
         })
     }
 
