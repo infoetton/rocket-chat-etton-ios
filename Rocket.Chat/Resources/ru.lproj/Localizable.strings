@@ -95,17 +95,17 @@
 "connection.server.redirect.alert.confirm" = "Да, изменить URL-адрес";
 
 // Socket Connection
-"connection.title" = "Войдите на ваш сервер";
+"connection.title" = "Войдите на сервер";
 "connection.button_connect" = "Соединение";
-"connection.server_url.placeholder" = "your-company.rocket.chat"; // TODO
+"connection.server_url.placeholder" = "your-company.chat"; // TODO
 "connection.offline.banner.message" = "Вы в автономном режиме, попробуйте подключиться снова";
 "connection.connecting.banner.message" = "Соединение...";
 "connection.waiting_for_network.banner.message" = "Ожидание сети";
 
 // Onboarding
-"onboarding.label_welcome" = "Добро пожаловать в Rocket Chat";
+"onboarding.label_welcome" = "Добро пожаловать";
 "onboarding.label_subtitle" = "Team Communication"; // TODO
-"onboarding.button_connect_server" = "Соединиться с сервером";
+"onboarding.button_connect_server" = "Войти";
 "onboarding.button_create_server" = "Создать новый сервер";
 "onboarding.button_join_community_prefix" = "Присоединиться к сообществу";
 
@@ -335,7 +335,7 @@
 // Settings
 "myaccount.settings.title" = "Настройки";
 "myaccount.settings.administration" = "Администрирование";
-"myaccount.settings.logout" = "Выход из %@";
+"myaccount.settings.logout" = "Выход";
 "myaccount.settings.contactus" = "Связаться с нами";
 "myaccount.settings.profile" = "Профиль";
 "myaccount.settings.license" = "Лицензия";
