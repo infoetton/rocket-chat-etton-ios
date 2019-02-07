@@ -4148,11 +4148,12 @@
 				TargetAttributes = {
 					41DF76DE1D2C50710028DBF8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = S6UPZG7ZR3;
+						DevelopmentTeam = 3G6ZQY8R9Y;
 						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 							com.apple.BackgroundModes = {
 								enabled = 1;
@@ -4170,24 +4171,24 @@
 					};
 					41DF76F21D2C50720028DBF8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = S6UPZG7ZR3;
+						DevelopmentTeam = 3G6ZQY8R9Y;
 						LastSwiftMigration = 1000;
 						TestTargetID = 41DF76DE1D2C50710028DBF8;
 					};
 					41DF76FD1D2C50720028DBF8 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = S6UPZG7ZR3;
+						DevelopmentTeam = 3G6ZQY8R9Y;
 						LastSwiftMigration = 1000;
 						TestTargetID = 41DF76DE1D2C50710028DBF8;
 					};
 					807FB5572046E7DD00E21429 = {
 						CreatedOnToolsVersion = 9.2;
-						DevelopmentTeam = S6UPZG7ZR3;
+						DevelopmentTeam = 3G6ZQY8R9Y;
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -5599,16 +5600,18 @@
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat/Rocket.Chat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				GCC_OPTIMIZATION_LEVEL = s;
 				INFOPLIST_FILE = Rocket.Chat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) -D TEST";
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.eton.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -5624,16 +5627,15 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = Rocket.Chat.ShareExtension/Rocket.Chat.ShareExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Rocket.Chat.ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.Rocket-Chat-ShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.eton.ios.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -5649,7 +5651,7 @@
 			baseConfigurationReference = 931A9FDD60FB42509A0958F5 /* Pods-Rocket.ChatTests.test.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.ChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -5665,7 +5667,7 @@
 		33A37DF720EAB7E9004014B6 /* Test */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				INFOPLIST_FILE = Rocket.ChatUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -5795,15 +5797,17 @@
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat/Rocket.Chat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				INFOPLIST_FILE = Rocket.Chat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) -D DEBUG";
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.eton.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_DISABLE_SAFETY_CHECKS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -5820,15 +5824,17 @@
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat/Rocket.Chat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				INFOPLIST_FILE = Rocket.Chat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) -D RELEASE";
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.eton.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_VERSION = 4.2;
 			};
@@ -5839,7 +5845,7 @@
 			baseConfigurationReference = 58C7F7D8D91A05CA5D1C9FE0 /* Pods-Rocket.ChatTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.ChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -5857,7 +5863,7 @@
 			baseConfigurationReference = 35AE3FC690B1D3DC4E9DE715 /* Pods-Rocket.ChatTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.ChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -5873,7 +5879,7 @@
 		41DF770E1D2C50720028DBF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				INFOPLIST_FILE = Rocket.ChatUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -5887,7 +5893,7 @@
 		41DF770F1D2C50720028DBF8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				INFOPLIST_FILE = Rocket.ChatUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -5959,15 +5965,17 @@
 				CODE_SIGN_ENTITLEMENTS = Rocket.Chat/Rocket.Chat.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				INFOPLIST_FILE = Rocket.Chat/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) -D BETA";
-				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.ios;
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.eton.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
 				SWIFT_VERSION = 4.2;
 			};
@@ -5978,7 +5986,7 @@
 			baseConfigurationReference = FEDACA44BBB1C0633DEA6F3D /* Pods-Rocket.ChatTests.beta.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = Rocket.ChatTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -5994,7 +6002,7 @@
 		41E69F0720050A310040ADB2 /* Beta */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				INFOPLIST_FILE = Rocket.ChatUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -6013,17 +6021,16 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = Rocket.Chat.ShareExtension/Rocket.Chat.ShareExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Rocket.Chat.ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.Rocket-Chat-ShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.eton.ios.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -6042,16 +6049,15 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = Rocket.Chat.ShareExtension/Rocket.Chat.ShareExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Rocket.Chat.ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.Rocket-Chat-ShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.eton.ios.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
@@ -6069,16 +6075,15 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = Rocket.Chat.ShareExtension/Rocket.Chat.ShareExtension.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = S6UPZG7ZR3;
+				DEVELOPMENT_TEAM = 3G6ZQY8R9Y;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = Rocket.Chat.ShareExtension/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "chat.rocket.ios.Rocket-Chat-ShareExtension";
+				PRODUCT_BUNDLE_IDENTIFIER = chat.rocket.eton.ios.share;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Rocket.Chat/Rocket.Chat-Bridge.h";
