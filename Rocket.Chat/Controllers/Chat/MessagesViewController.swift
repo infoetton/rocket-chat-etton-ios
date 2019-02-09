@@ -45,7 +45,7 @@ final class MessagesViewController: RocketChatViewController {
     fileprivate(set) var messageBuffer: MessageBuffer?
     // MARK: - Initializers
     deinit {
-        MessageBuffer.shared.reset()
+        //MessageBuffer.shared.reset()
         NotificationCenter.default.removeObserver(self)
         SocketManager.removeConnectionHandler(token: socketHandlerToken)
     }
@@ -127,13 +127,11 @@ final class MessagesViewController: RocketChatViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
-        self.apply(messageBuffer: self.messageBuffer ?? MessageBuffer.shared)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.apply(messageBuffer: messageBuffer ?? MessageBuffer.shared)
         
         setupTitleView()
         updateEmptyState()
@@ -213,6 +211,8 @@ final class MessagesViewController: RocketChatViewController {
         super.viewDidAppear(animated)
         markAsRead()
         becomeFirstResponder()
+        self.apply(messageBuffer: self.messageBuffer ?? MessageBuffer.shared)
+
     }
 
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
