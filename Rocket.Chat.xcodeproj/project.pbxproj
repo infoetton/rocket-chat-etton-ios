@@ -873,6 +873,7 @@
 		D1D535EC1F7081FA006625D2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D535EB1F7081FA006625D2 /* API.swift */; };
 		D1D535EE1F708628006625D2 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D535ED1F708628006625D2 /* APIRequest.swift */; };
 		D1D535F11F70864C006625D2 /* InfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D535F01F70864C006625D2 /* InfoRequest.swift */; };
+		D297185F220E647C00C2B2A9 /* MessageBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D297185E220E647C00C2B2A9 /* MessageBuffer.swift */; };
 		D32E28241DFD86C300D6019C /* AnalyticsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E28211DFD86C300D6019C /* AnalyticsCoordinator.swift */; };
 		D32E28251DFD86C300D6019C /* LauncherProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E28221DFD86C300D6019C /* LauncherProtocol.swift */; };
 		D32E28261DFD86C300D6019C /* PersistencyCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E28231DFD86C300D6019C /* PersistencyCoordinator.swift */; };
@@ -1793,6 +1794,7 @@
 		D1D535EB1F7081FA006625D2 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		D1D535ED1F708628006625D2 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
 		D1D535F01F70864C006625D2 /* InfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRequest.swift; sourceTree = "<group>"; };
+		D297185E220E647C00C2B2A9 /* MessageBuffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MessageBuffer.swift; path = "../New Group/MessageBuffer.swift"; sourceTree = "<group>"; };
 		D32E28211DFD86C300D6019C /* AnalyticsCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnalyticsCoordinator.swift; sourceTree = "<group>"; };
 		D32E28221DFD86C300D6019C /* LauncherProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LauncherProtocol.swift; sourceTree = "<group>"; };
 		D32E28231DFD86C300D6019C /* PersistencyCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistencyCoordinator.swift; sourceTree = "<group>"; };
@@ -2652,6 +2654,7 @@
 		41A79C0D1D2F084F00A1968E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D2971860220E648400C2B2A9 /* Cache */,
 				412DF58C216F8A0A005161A4 /* Attachment */,
 				99BE4D8621530117001A43E2 /* ChatModels */,
 				1496A87E20FA487E005C2E14 /* Notifications */,
@@ -4008,6 +4011,14 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		D2971860220E648400C2B2A9 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				D297185E220E647C00C2B2A9 /* MessageBuffer.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
 		D32E28201DFD86AC00D6019C /* Launcher */ = {
 			isa = PBXGroup;
 			children = (
@@ -4690,6 +4701,7 @@
 				8076FDE42048CC8600114F28 /* MigrationCoordinator.swift in Sources */,
 				802C895C21639B8900C6B9B2 /* MessagesViewControllerBanner.swift in Sources */,
 				8045F49B20D0599800AA0F3C /* ReadReceiptListView.swift in Sources */,
+				D297185F220E647C00C2B2A9 /* MessageBuffer.swift in Sources */,
 				4151B4561E2D1AFF00F8AA1B /* SubscriptionModelMapping.swift in Sources */,
 				8013F86B1FD6B59A00EE1A4E /* Version.swift in Sources */,
 				41BFA0AA2146D23D008B9611 /* MessageManager.swift in Sources */,

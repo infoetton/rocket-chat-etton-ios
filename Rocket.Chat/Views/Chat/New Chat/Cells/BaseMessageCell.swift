@@ -29,6 +29,18 @@ class BaseMessageCell: UICollectionViewCell, BaseMessageCellProtocol, ChatCell {
 
         return avatarView
     }()
+    
+    // MARK: -
+    
+    fileprivate(set) var shouldApplyData = true
+    
+    fileprivate(set) var messageBuffer = MessageBuffer.shared
+    
+    // MARK: - Initializers
+    
+    deinit {
+//        MessageBuffer.shared.reset()
+    }
 
     var settings: AuthSettings? {
         return AuthManager.isAuthenticated()?.settings
@@ -129,7 +141,9 @@ class BaseMessageCell: UICollectionViewCell, BaseMessageCellProtocol, ChatCell {
         else {
             return
         }
-
+        
+        self.messageBuffer.message = managedObject
+        
         delegate?.handleLongPressMessageCell(managedObject, view: contentView, recognizer: recognizer)
     }
 

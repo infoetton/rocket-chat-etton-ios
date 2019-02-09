@@ -4,7 +4,7 @@
 //
 //  Created by Filipe Alvarenga on 19/09/18.
 //  Copyright © 2018 Rocket.Chat. All rights reserved.
-//
+//  swiftlint:disable all
 
 import UIKit
 import RocketChatViewController
@@ -40,13 +40,25 @@ final class MessagesViewController: RocketChatViewController {
 
         return (chatPreviewModeView?.frame.height ?? 0.0) + view.safeAreaInsets.bottom
     }
+    // MARK: -
+    fileprivate(set) var shouldApplyData = true
+    fileprivate(set) var messageBuffer: MessageBuffer?
+    // MARK: - Initializers
+    deinit {
+        MessageBuffer.shared.reset()
+        NotificationCenter.default.removeObserver(self)
+        SocketManager.removeConnectionHandler(token: socketHandlerToken)
+    }
+    var allowResignFirstResponder = true
+    override var canResignFirstResponder: Bool {
+        return allowResignFirstResponder
+    }
 
     let viewModel = MessagesViewModel(controllerContext: nil)
     let viewSubscriptionModel = MessagesSubscriptionViewModel()
     let viewSizingModel = MessagesSizingManager()
     let composerViewModel = MessagesComposerViewModel()
 
-    // TODO: Move to another view model
     let socketHandlerToken = String.random(5)
 
     var chatTitleView: ChatTitleView?
@@ -97,19 +109,32 @@ final class MessagesViewController: RocketChatViewController {
         return screenSize.width / screenSize.height > 1 && UIDevice.current.userInterfaceIdiom == .phone
     }
 
-    deinit {
-        NotificationCenter.default.removeObserver(self)
-        SocketManager.removeConnectionHandler(token: socketHandlerToken)
+    func apply(messageBuffer: MessageBuffer) {
+        self.messageBuffer = messageBuffer
+        
+        if self.isViewLoaded {
+            if self.messageBuffer!.message != nil {
+                
+                self.reply(to: self.messageBuffer!.message!, onlyQuote: false)
+            }
+            
+            self.shouldApplyData = false
+        } else {
+            self.shouldApplyData = true
+        }
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
 
-    var allowResignFirstResponder = true
-    override var canResignFirstResponder: Bool {
-        return allowResignFirstResponder
+        self.apply(messageBuffer: self.messageBuffer ?? MessageBuffer.shared)
     }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.apply(messageBuffer: messageBuffer ?? MessageBuffer.shared)
+        
         setupTitleView()
         updateEmptyState()
         updateSearchMessagesButton()
