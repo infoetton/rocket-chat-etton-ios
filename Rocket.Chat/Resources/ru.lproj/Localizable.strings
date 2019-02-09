@@ -225,8 +225,8 @@
 "chat.message.actions.unpin" = "Открепить сообщение";
 "chat.message.actions.star" = "Пометить сообщение";
 "chat.message.actions.unstar" = "Снять отметку";
-"chat.message.actions.quote" = "Цитата";
-"chat.message.actions.reply" = "Ответить";
+"chat.message.actions.quote" = "Ответить";
+"chat.message.actions.reply" = "Переслать";
 "chat.message.actions.delete" = "Удалить сообщение";
 "chat.message.actions.delete.confirm.title" = "Удалить это сообщение?";
 "chat.message.actions.delete.confirm.message" = "Вы уверены, что хотите удалить это сообщение? Этот процесс необратим.";

@@ -115,7 +115,7 @@ final class MessagesViewController: RocketChatViewController {
         if self.isViewLoaded {
             if self.messageBuffer!.message != nil {
                 
-                self.reply(to: self.messageBuffer!.message!, onlyQuote: false)
+                self.reply(to: self.messageBuffer!.message!, onlyQuote: true)
             }
             
             self.shouldApplyData = false
