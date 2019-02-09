@@ -39,6 +39,7 @@ class MembersListViewData {
         return members[members.index(members.startIndex, offsetBy: index)]
     }
 
+
     private var isLoadingMoreMembers = false
     func loadMoreMembers(completion: (() -> Void)? = nil) {
         if isLoadingMoreMembers { return }

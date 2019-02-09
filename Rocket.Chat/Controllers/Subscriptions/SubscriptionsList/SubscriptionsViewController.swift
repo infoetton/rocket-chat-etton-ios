@@ -8,6 +8,7 @@
 
 import RealmSwift
 import SwipeCellKit
+import RocketChatViewController
 
 // swiftlint:disable file_length
 final class SubscriptionsViewController: BaseViewController {
@@ -51,6 +52,7 @@ final class SubscriptionsViewController: BaseViewController {
 
         super.viewDidLoad()
 
+        NotificationCenter.default.addObserver(self, selector: #selector(addReplyView), name: Notification.Name("bufferChanged"), object: nil)
         // If the device is not using the SplitView, we want to show
         // the 3D Touch preview for the cells
         if splitViewController?.detailViewController as? BaseNavigationController == nil {
@@ -83,12 +85,35 @@ final class SubscriptionsViewController: BaseViewController {
             }
         }
     }
+    
+    private var replyView: ReplyView?
+    
+    @objc func addReplyView() {
+        replyView?.removeFromSuperview()
+        guard let message = MessageBuffer.shared.message else { return }
+        replyView = ReplyView()
+        replyView?.nameLabel.text = message.user?.displayName()
+        replyView?.textLabel.text = message.text
+        replyView?.translatesAutoresizingMaskIntoConstraints = false
+        
+        
+        view.addSubview(replyView!)
+        replyView?.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -16).isActive = true
+        replyView?.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        replyView?.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        replyView?.isHidden = false
+    }
+    
+    
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
 
         serversView?.frame = frameForDropDownOverlay
         sortingView?.frame = frameForDropDownOverlay
+        
+        tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: replyView?.frame.height ?? 0, right: 0)
+
     }
 
     override func viewWillAppear(_ animated: Bool) {

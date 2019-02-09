@@ -19,6 +19,7 @@ extension MessagesViewController {
     func reply(to message: Message, onlyQuote: Bool = false) {
         replyView?.nameLabel.text = message.user?.displayName()
         replyView?.textLabel.text = message.text
+        MessageBuffer.shared.message = message
 
         if let updatedAt = message.updatedAt {
             replyView?.timeLabel.text = RCDateFormatter.time(updatedAt)

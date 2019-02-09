@@ -15,6 +15,7 @@ extension MessagesViewController: ComposerViewExpandedDelegate {
 
     func replyViewDidHide(_ replyView: ReplyView) {
         composerViewModel.replyString = ""
+        MessageBuffer.shared.reset()
     }
 
     func replyViewDidShow(_ replyView: ReplyView) {

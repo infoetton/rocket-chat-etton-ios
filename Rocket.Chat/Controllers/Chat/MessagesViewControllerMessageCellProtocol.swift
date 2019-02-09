@@ -277,6 +277,8 @@ extension MessagesViewController {
 
         let replyAction = UIAlertAction(title: localized("chat.message.actions.reply"), style: .default, handler: { _ in
             self.reply(to: message)
+            //TODO
+            self.navigationController?.popViewController(animated: true)
         })
 
         let quote = UIAlertAction(title: localized("chat.message.actions.quote"), style: .default, handler: { _ in

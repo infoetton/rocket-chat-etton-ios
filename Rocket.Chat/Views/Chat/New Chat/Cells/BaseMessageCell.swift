@@ -142,7 +142,6 @@ class BaseMessageCell: UICollectionViewCell, BaseMessageCellProtocol, ChatCell {
             return
         }
         
-        self.messageBuffer.message = managedObject
         
         delegate?.handleLongPressMessageCell(managedObject, view: contentView, recognizer: recognizer)
     }

@@ -266,7 +266,7 @@ final class MessageSection: ChatSection {
 
     func cell(for viewModel: AnyChatItem, on collectionView: UICollectionView, at indexPath: IndexPath) -> ChatCell {
         var cell = collectionView.dequeueChatCell(withReuseIdentifier: viewModel.relatedReuseIdentifier, for: indexPath)
-
+    
         if var cell = cell as? BaseMessageCellProtocol {
             cell.delegate = self.messagesController
         }
