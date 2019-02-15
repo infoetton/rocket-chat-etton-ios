@@ -359,7 +359,7 @@
 // Change Language
 "myaccount.settings.language.title" = "Change Language"; // TODO
 "myaccount.settings.language.reset" = "Reset to Default"; // TODO
-"myaccount.settings.language.message" = "You have changed language settings. You must restart Rocket.Chat before the new settings will take effect."; // TODO
+"myaccount.settings.language.message" = "You have changed language settings. You must restart ГСУ ФСИН before the new settings will take effect."; // TODO
 
 // Notifications preferences
 "myaccount.settings.notifications.title" = "Notification Preferences"; // TODO

@@ -203,11 +203,11 @@
 "chat.muted" = "Вы были заглушены";
 "chat.loading_messages" = "Загрузка сообщений...";
 "chat.unread_separator" = "новые сообщения";
-"chat.preview.actions.read" = "Mark as read"; // TODO
-"chat.preview.actions.unread" = "Mark as unread"; // TODO
-"chat.preview.actions.favorite" = "Favorite"; // TODO
-"chat.preview.actions.unfavorite" = "Unfavorite"; // TODO
-"chat.preview.actions.hide" = "Hide"; // TODO
+"chat.preview.actions.read" = "Пометить, как прочитанное"; // TODO
+"chat.preview.actions.unread" = "Пометить, как непрочитанное"; // TODO
+"chat.preview.actions.favorite" = "В избранное"; // TODO
+"chat.preview.actions.unfavorite" = "Из избранного"; // TODO
+"chat.preview.actions.hide" = "Спрятать"; // TODO
 
 // Read Receipts
 "chat.read_receipt_list.title" = "Прочитано";
@@ -269,10 +269,10 @@
 "chat.drawing.settings.color.others" = "Выберите цвет ниже:";
 
 // Chat Typing
-"chat.users_are_typing" = "%@ are typing..."; // TODO
-"chat.user_is_typing" = "%@ is typing..."; // TODO
-"chat.typing" = "typing..."; // TODO
-"chat.several_typing" = "several users are typing..."; // TODO
+"chat.users_are_typing" = "%@ печатают..."; // TODO
+"chat.user_is_typing" = "%@ печатает..."; // TODO
+"chat.typing" = "печетает..."; // TODO
+"chat.several_typing" = "несколько пользователей печатают..."; // TODO
 
 // Message Types
 "chat.message.type.room_name_changed" = "Название канала изменено на: %@ by %@";
@@ -290,10 +290,10 @@
 "chat.message.type.room_unarchived" = "Этот канал был разархивирован пользователем %@";
 "chat.message.type.message_pinned" = "Прикрепленное сообщение:";
 "chat.message.type.message_snippeted" = "Created a snippet: \"%@\""; // TODO
-"chat.message.type.room_changed_privacy" = "Room privacy changed to \"%@\" by %@"; // TODO
-"chat.message.type.room_changed_topic" = "Room topic changed to \"%@\" by %@"; // TODO
-"chat.message.type.room_changed_announcement" = "Room annoucement changed to \"%@\" by %@"; // TODO
-"chat.message.type.room_changed_description" = "Room description changed to \"%@\" by %@"; // TODO
+"chat.message.type.room_changed_privacy" = "Приватность комнаты изменена на \"%@\" by %@"; // TODO
+"chat.message.type.room_changed_topic" = "Тема канала изменена на \"%@\" by %@"; // TODO
+"chat.message.type.room_changed_announcement" = "Описание канала изменено на \"%@\" by %@"; // TODO
+"chat.message.type.room_changed_description" = "Описание канала изменено на \"%@\" by %@"; // TODO
 
 // Chat Information
 "chat.info.title" = "Инфо";
@@ -340,8 +340,8 @@
 "myaccount.settings.profile" = "Профиль";
 "myaccount.settings.license" = "Лицензия";
 "myaccount.settings.language" = "Язык";
-"myaccount.settings.review" = "Review this App"; // TODO
-"myaccount.settings.share" = "Share this App"; // TODO
+"myaccount.settings.review" = "Оцените приложение"; // TODO
+"myaccount.settings.share" = "Поделиться приложением"; // TODO
 "myaccount.settings.appicon" = "Иконка приложения";
 "myaccount.settings.version" = "Версия: %@ (%@)";
 "myaccount.settings.server_version" = "Версия сервера: %@";
@@ -358,15 +358,15 @@
 // Change Language
 "myaccount.settings.language.title" = "Изменить язык";
 "myaccount.settings.language.reset" = "Восстановление значений по умолчанию";
-"myaccount.settings.language.message" = "Вы изменили языковые настройки. Вы должны перезапустить Rocket.Chat, прежде чем новые настройки вступят в силу.";
+"myaccount.settings.language.message" = "Вы изменили языковые настройки. Вы должны перезапустить ГСУ ФСИН, прежде чем новые настройки вступят в силу.";
 
 // Notifications preferences
-"myaccount.settings.notifications.title" = "Notification Preferences"; // TODO
-"myaccount.settings.notifications.save" = "Save"; // TODO
+"myaccount.settings.notifications.title" = "Настройки уведомлений"; // TODO
+"myaccount.settings.notifications.save" = "Сохранить"; // TODO
 
-"myaccount.settings.notifications.receive.title" = "Receive Notifications"; // TODO
-"myaccount.settings.notifications.receive.footer" = "Receive notifications from %@"; // TODO
-"myaccount.settings.notifications.show.title" = "Show Unread Counter"; // TODO
+"myaccount.settings.notifications.receive.title" = "Получать уведомления"; // TODO
+"myaccount.settings.notifications.receive.footer" = "Получать уведомления от %@"; // TODO
+"myaccount.settings.notifications.show.title" = "Показывать кол-во непрочитанных"; // TODO
 "myaccount.settings.notifications.show.footer" = "Unread counter is displayed as a badge on to the right of the channel, in the list."; // TODO
 
 "myaccount.settings.notifications.inapp" = "In-app and Desktop"; // TODO

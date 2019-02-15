@@ -78,7 +78,7 @@
                                 </constraints>
                             </view>
                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="smf-cw-ZKs">
-                                <rect key="frame" x="15" y="463" width="345" height="60"/>
+                                <rect key="frame" x="15" y="599" width="345" height="60"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoSmall" translatesAutoresizingMaskIntoConstraints="NO" id="OdB-XV-16Q">
                                         <rect key="frame" x="15" y="15" width="30" height="30"/>

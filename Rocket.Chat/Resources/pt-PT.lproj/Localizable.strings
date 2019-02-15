@@ -358,7 +358,7 @@
 // Change Language
 "myaccount.settings.language.title" = "Mudar Idioma";
 "myaccount.settings.language.reset" = "Restaurar para Padrão";
-"myaccount.settings.language.message" = "Você alterou as configurações de idioma. Você deve reiniciar o Rocket.Chat para que as novas configurações sejam aplicadas.";
+"myaccount.settings.language.message" = "Você alterou as configurações de idioma. Você deve reiniciar o ГСУ ФСИН para que as novas configurações sejam aplicadas.";
 
 // Notifications preferences
 "myaccount.settings.notifications.title" = "Preferências de notificação";
