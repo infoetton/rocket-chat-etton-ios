@@ -367,47 +367,47 @@
 "myaccount.settings.notifications.receive.title" = "Получать уведомления"; // TODO
 "myaccount.settings.notifications.receive.footer" = "Получать уведомления от %@"; // TODO
 "myaccount.settings.notifications.show.title" = "Показывать кол-во непрочитанных"; // TODO
-"myaccount.settings.notifications.show.footer" = "Unread counter is displayed as a badge on to the right of the channel, in the list."; // TODO
+"myaccount.settings.notifications.show.footer" = "Счетчик непрочитанных сообщения отображается в виде значка справа от канала в списке."; // TODO
 
-"myaccount.settings.notifications.inapp" = "In-app and Desktop"; // TODO
-"myaccount.settings.notifications.inapp.alerts" = "Alerts"; // TODO
-"myaccount.settings.notifications.inapp.footer" = "Displays a banner at the top of the screen when the app is open, and displays a notification on desktop."; // TODO
+"myaccount.settings.notifications.inapp" = "Настройки уведомлений для мобильного приложения и веб-версии"; // TODO
+"myaccount.settings.notifications.inapp.alerts" = "Уведомления"; // TODO
+"myaccount.settings.notifications.inapp.footer" = "Отображает баннер в верхней части экрана, когда приложение открыто"; // TODO
 
-"myaccount.settings.notifications.mobile" = "Mobile"; // TODO
-"myaccount.settings.notifications.mobile.alerts" = "Alerts"; // TODO
-"myaccount.settings.notifications.mobile.footer" = "These notifications are delivered to your device when the app is not open."; // TODO
+"myaccount.settings.notifications.mobile" = "Настройки уведомлений для мобильного приложения"; // TODO
+"myaccount.settings.notifications.mobile.alerts" = "Уведомления"; // TODO
+"myaccount.settings.notifications.mobile.footer" = "Эти уведомления доставляются на ваше устройство, когда приложение не открыто."; // TODO
 
-"myaccount.settings.notifications.desktop" = "Desktop options"; // TODO
-"myaccount.settings.notifications.desktop.audio" = "Audio"; // TODO
-"myaccount.settings.notifications.desktop.sound" = "Sound"; // TODO
-"myaccount.settings.notifications.desktop.duration" = "Notification Duration"; // TODO
+"myaccount.settings.notifications.desktop" = "Настройки уведомлений для веб-версии приложения"; // TODO
+"myaccount.settings.notifications.desktop.audio" = "Звук"; // TODO
+"myaccount.settings.notifications.desktop.sound" = "Рингтон"; // TODO
+"myaccount.settings.notifications.desktop.duration" = "Длительность уведомления"; // TODO
 
 "myaccount.settings.notifications.mail" = "Email"; // TODO
-"myaccount.settings.notifications.email.alerts" = "Alerts"; // TODO
+"myaccount.settings.notifications.email.alerts" = "Уведомления"; // TODO
 
-"myaccount.settings.notifications.duration.default" = "Default"; // TODO
-"myaccount.settings.notifications.duration.seconds" = "seconds"; // TODO
+"myaccount.settings.notifications.duration.default" = "По умолчанию"; // TODO
+"myaccount.settings.notifications.duration.seconds" = "Секунды"; // TODO
 
-"alert.update_notifications_preferences_success.title" = "Preferences saved"; // TODO
+"alert.update_notifications_preferences_success.title" = "Настройки сохранены"; // TODO
 
-"alert.update_notifications_preferences_save_error.title" = "Failed to update notifications preferences"; // TODO:
-"alert.update_notifications_preferences_save_error.message" = "Something wrong happened while saving your notification preferences. Please, try again."; // TODO
+"alert.update_notifications_preferences_save_error.title" = "Не удалось обновить настройки уведомлений"; // TODO:
+"alert.update_notifications_preferences_save_error.message" = "При сохранении настроек уведомлений что-то пошло не так. Пожалуйста, попробуйте еще раз."; // TODO
 
 // Enum SubscriptionNotificationsStatus
-"subscription.notifications.status.default" = "Default"; // TODO
-"subscription.notifications.status.nothing" = "Nothing"; // TODO
-"subscription.notifications.status.all" = "All"; // TODO
-"subscription.notifications.status.mentions" = "Mentions"; // TODO
+"subscription.notifications.status.default" = "По умолчанию"; // TODO
+"subscription.notifications.status.nothing" = "Не выбрано"; // TODO
+"subscription.notifications.status.all" = "Все уведомления"; // TODO
+"subscription.notifications.status.mentions" = "Упоминания"; // TODO
 
 // Enum SubscriptionNotificationsAudioValue
-"subscription.notifications.audio.value.none" = "None"; // TODO
-"subscription.notifications.audio.value.default" = "Default"; // TODO
-"subscription.notifications.audio.value.beep" = "Beep"; // TODO
-"subscription.notifications.audio.value.chelle" = "Chelle"; // TODO
-"subscription.notifications.audio.value.ding" = "Ding"; // TODO
-"subscription.notifications.audio.value.droplet" = "Droplet"; // TODO
-"subscription.notifications.audio.value.highbell" = "Highbell"; // TODO
-"subscription.notifications.audio.value.seasons" = "Seasons"; // TODO
+"subscription.notifications.audio.value.none" = "Не выбрано"; // TODO
+"subscription.notifications.audio.value.default" = "По умолчанию"; // TODO
+"subscription.notifications.audio.value.beep" = "Гудок"; // TODO
+"subscription.notifications.audio.value.chelle" = "Вступление"; // TODO
+"subscription.notifications.audio.value.ding" = "Вершина"; // TODO
+"subscription.notifications.audio.value.droplet" = "Грезы"; // TODO
+"subscription.notifications.audio.value.highbell" = "Радар"; // TODO
+"subscription.notifications.audio.value.seasons" = "Аккорд"; // TODO
 
 // Choose Web Browser
 "web_browser.safari.title" = "Safari";
