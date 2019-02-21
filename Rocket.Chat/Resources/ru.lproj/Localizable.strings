@@ -155,11 +155,11 @@
 "subscriptions.list.no_message" = "Нет сообщений";
 "subscriptions.list.sent_an_attachment" = "отправить вложение";
 "subscriptions.list.date.yesterday" = "Вчера";
-"subscriptions.list.actions.read" = "Read"; // TODO
-"subscriptions.list.actions.unread" = "Unread"; // TODO
-"subscriptions.list.actions.favorite" = "Favorite"; // TODO
-"subscriptions.list.actions.unfavorite" = "Unfavorite"; // TODO
-"subscriptions.list.actions.hide" = "Hide"; // TODO
+"subscriptions.list.actions.read" = "Прочитано";
+"subscriptions.list.actions.unread" = "Не прочитано";
+"subscriptions.list.actions.favorite" = "Закрпеить";
+"subscriptions.list.actions.unfavorite" = "Открепить";
+"subscriptions.list.actions.hide" = "Скрыть";
 
 // Servers
 "servers.add_new_team" = "Добавить новую команду";
@@ -203,11 +203,11 @@
 "chat.muted" = "Вы были заглушены";
 "chat.loading_messages" = "Загрузка сообщений...";
 "chat.unread_separator" = "новые сообщения";
-"chat.preview.actions.read" = "Пометить, как прочитанное"; // TODO
-"chat.preview.actions.unread" = "Пометить, как непрочитанное"; // TODO
-"chat.preview.actions.favorite" = "В избранное"; // TODO
-"chat.preview.actions.unfavorite" = "Из избранного"; // TODO
-"chat.preview.actions.hide" = "Спрятать"; // TODO
+"chat.preview.actions.read" = "Пометить, как прочитанное";
+"chat.preview.actions.unread" = "Пометить, как непрочитанное"; 
+"chat.preview.actions.favorite" = "В избранное";
+"chat.preview.actions.unfavorite" = "Из избранного";
+"chat.preview.actions.hide" = "Скрыть";
 
 // Read Receipts
 "chat.read_receipt_list.title" = "Прочитано";
@@ -451,15 +451,15 @@
 "user_action_sheet.remove_confirm.message" = "Вы действительно хотите удалить '%@' с канала?";
 
 // User Details
-"user_details.status" = "Status"; // TODO
-"user_details.role" = "Role"; // TODO
-"user_details.roles" = "Roles"; // TODO
-"user_details.email" = "Email"; // TODO
-"user_details.emails" = "Emails"; // TODO
-"user_details.timezone" = "Timezone"; // TODO
-"user_details.message_button" = "Message"; // TODO
-"user_details.voice_call_button" = "Voice Call"; // TODO
-"user_details.video_call_button" = "Video Call"; // TODO
+"user_details.status" = "Статус";
+"user_details.role" = "Роль";
+"user_details.roles" = "Роли";
+"user_details.email" = "Email";
+"user_details.emails" = "Emails";
+"user_details.timezone" = "Часовой пояс";
+"user_details.message_button" = "Сообщение";
+"user_details.voice_call_button" = "Аудиозвонок";
+"user_details.video_call_button" = "Видеозвонок";
 
 // Theme
 "theme.settings.title" = "Тема";
