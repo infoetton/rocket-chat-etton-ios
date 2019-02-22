@@ -8,11 +8,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="Rubik-Regular.ttf">
-            <string>Rubik-Regular</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--Preferences-->
         <scene sceneID="QNQ-fa-gYE">
@@ -905,47 +900,8 @@
                         <sections>
                             <tableViewSection headerTitle="" id="cdg-5M-6sg">
                                 <cells>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ReceivedTableCell" id="9CP-IT-f4Q" customClass="SwitchableTableViewCell" customModule="Wager" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="35" width="375" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="9CP-IT-f4Q" id="SgR-GT-qAv">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Показывать уведомления" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHp-Ct-fdZ">
-                                                    <rect key="frame" x="20" y="12" width="206" height="20"/>
-                                                    <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="17"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lo9-go-Q4M">
-                                                    <rect key="frame" x="310" y="6.5" width="51" height="31"/>
-                                                    <color key="onTintColor" red="0.32549019610000002" green="1" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </switch>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="63a-Pk-cWd" userLabel="Separator View">
-                                                    <rect key="frame" x="20" y="41.5" width="355" height="1"/>
-                                                    <color key="backgroundColor" red="0.1843137255" green="0.1843137255" blue="0.1843137255" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="1" id="NdB-nM-KnW"/>
-                                                    </constraints>
-                                                </view>
-                                            </subviews>
-                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            <constraints>
-                                                <constraint firstAttribute="trailing" secondItem="63a-Pk-cWd" secondAttribute="trailing" id="bzY-Yw-tDA"/>
-                                                <constraint firstItem="kHp-Ct-fdZ" firstAttribute="leading" secondItem="SgR-GT-qAv" secondAttribute="leading" constant="20" id="ggO-GQ-zSR"/>
-                                                <constraint firstItem="63a-Pk-cWd" firstAttribute="leading" secondItem="SgR-GT-qAv" secondAttribute="leading" constant="20" id="iro-AC-fei"/>
-                                                <constraint firstAttribute="trailing" secondItem="Lo9-go-Q4M" secondAttribute="trailing" constant="16" id="wPx-03-gsE"/>
-                                                <constraint firstAttribute="bottom" secondItem="63a-Pk-cWd" secondAttribute="bottom" constant="1" id="xkU-K1-u6P"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <constraints>
-                                            <constraint firstItem="kHp-Ct-fdZ" firstAttribute="centerY" secondItem="9CP-IT-f4Q" secondAttribute="centerY" id="37p-MA-dAZ"/>
-                                            <constraint firstItem="Lo9-go-Q4M" firstAttribute="centerY" secondItem="9CP-IT-f4Q" secondAttribute="centerY" id="HaH-3C-hb7"/>
-                                        </constraints>
-                                    </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="wPf-4N-jDG" style="IBUITableViewCellStyleValue1" id="ihn-Go-8pO">
-                                        <rect key="frame" x="0.0" y="79" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="35" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ihn-Go-8pO" id="hv8-IM-tvU">
                                             <rect key="frame" x="0.0" y="0.0" width="341" height="43.5"/>
@@ -966,7 +922,7 @@
                             <tableViewSection headerTitle="" id="vn6-ac-GQE">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="cPP-QQ-cF5" style="IBUITableViewCellStyleDefault" id="jA3-7N-wE8">
-                                        <rect key="frame" x="0.0" y="159" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="115" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jA3-7N-wE8" id="yOc-MF-gPx">
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
