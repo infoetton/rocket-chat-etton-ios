@@ -157,7 +157,7 @@
 "subscriptions.list.date.yesterday" = "Вчера";
 "subscriptions.list.actions.read" = "Прочитано";
 "subscriptions.list.actions.unread" = "Не прочитано";
-"subscriptions.list.actions.favorite" = "Закрпеить";
+"subscriptions.list.actions.favorite" = "Закрепить";
 "subscriptions.list.actions.unfavorite" = "Открепить";
 "subscriptions.list.actions.hide" = "Скрыть";
 
